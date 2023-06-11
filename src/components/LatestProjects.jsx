@@ -94,7 +94,7 @@ const LatestProjects = () => {
 										data-aos-duration="1500"
 										data-aos-easing="ease-in-out"
 										data-aos-mirror="true"
-										data-aos-once="false"
+										data-aos-once="true"
 										className="blurb__heading"
 									>
 										ARGO
@@ -108,7 +108,7 @@ const LatestProjects = () => {
 										data-aos-duration="1500"
 										data-aos-easing="ease-in-out"
 										data-aos-mirror="true"
-										data-aos-once="false"
+										data-aos-once="true"
 										className="blurb__copy"
 									>
 										This marvellous cutting-edge autonomous drone is capable of
@@ -126,7 +126,7 @@ const LatestProjects = () => {
 								data-aos-duration="2000"
 								data-aos-easing="ease-in-out"
 								data-aos-mirror="true"
-								data-aos-once="false"
+								data-aos-once="true"
 								className="work__visual"
 							>
 								<img src={argoImg} alt="Argo project" />
