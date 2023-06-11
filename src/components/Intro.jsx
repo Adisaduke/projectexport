@@ -42,7 +42,7 @@ const Intro = () => {
 				<h1 className="introduction__content">
 					<span
 						data-aos="fade-right"
-						data-aos-offset="200"
+						data-aos-offset="100"
 						data-aos-delay="50"
 						data-aos-duration="1000"
 						data-aos-easing="ease-in-out"
@@ -69,8 +69,8 @@ const Intro = () => {
 					<span
 
 						data-aos='fade-left'
-						data-aos-offset="200"
-						data-aos-delay="50"
+						data-aos-offset="160"
+						data-aos-delay="60"
 						data-aos-duration="1000"
 						data-aos-easing="ease-in-out"
 						data-aos-mirror="true"
