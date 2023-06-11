@@ -12,38 +12,39 @@ import {
 } from "../components";
 import introImg from "../assets/img/vulcan_big.png";
 import roadmapImg from "../assets/img/vulcan/roadmap.png";
-import sliderImg1 from "../assets/img/argo/jetson_nano.png";
-import sliderImg2 from "../assets/img/argo/pixhawk.png";
-import sliderImg3 from "../assets/img/argo/rplidar.png";
-import sliderImg4 from "../assets/img/argo/4kcamera.png";
+
+import sliderImg1 from "../assets/img/vulcan/VulCAN_Schematics.png";
+import sliderImg2 from "../assets/img/vulcan/VulCAN_PCB_Design.png";
+import sliderImg3 from "../assets/img/vulcan/VulCAN_PCB_Prototype.png";
+import sliderImg4 from "../assets/img/vulcan/InProgress.png";
 
 const data = [
 	{
-		header1: "NVidia Jetson",
-		header2: "Nano",
+		header1: "Schematics of VulCAN CS",
+		header2: "",
 		text:
-			"A powerful computer designed for embedded applications, such as autonomous vehicles and drones. It features a quad-core ARM Cortex-A57 CPU, 128-core NVIDIA Maxwell GPU, and 4GB of LPDDR4 memory.",
+			"This document contains the detailed electrical schematics of the VulCAN control system. It provides a visual representation of the wiring, components, and connections within the system, allowing for a comprehensive understanding of its design and functionality.",
 		img: sliderImg1,
 	},
 	{
-		header1: "PixHawk",
-		header2: "Flight Controller",
+		header1: "From the schema to 2D design",
+		header2: "",
 		text:
-			"An open-source autopilot system designed for drones, helicopters, and other unmanned vehicles. It features a powerful ARM Cortex-M4 CPU, multiple sensors, and a range of I/O ports.",
+			"This stage of the project involves translating the electrical schematics of the VulCAN control system into a 2D design. The 2D design will serve as a blueprint for the physical construction of the control system, ensuring that all components are correctly positioned and wired.",
 		img: sliderImg2,
 	},
 	{
-		header1: "RPLiDAR",
-		header2: "A2 M12",
+		header1: "The prototype",
+		header2: "",
 		text:
-			"A 360-degree laser scanner is used for mapping and navigation. It can scan up to 12 meters in range and 10,000 times per second.",
+			"The prototype is a physical representation of the VulCAN control system. It is a working model that allows for testing and refinement of the system's design and functionality. The prototype is a crucial step in the development process, as it enables us to identify and address any issues or limitations in the system's design before final production.",
 		img: sliderImg3,
 	},
 	{
-		header1: "E-con Systems",
-		header2: "4K Camera",
+		header1: "The BRAIN of",
+		header2: "our system",
 		text:
-			"A high resolution camera used to capture images and video of the drone’s surroundings.",
+			"The \"brain\" of the VulCAN control system refers to the central microcontroller that will control and coordinate all of the system's functions. While the specific microcontroller has not yet been selected, it will be a critical component of the system's design, responsible for processing and responding to input from various sensors and other components.",
 		img: sliderImg4,
 	},
 ];

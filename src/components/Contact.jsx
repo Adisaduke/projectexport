@@ -12,8 +12,10 @@ const Contact = () => {
 				data-aos-easing="ease-in-out"
 				data-aos-mirror="true"
 				data-aos-once="false"
-
-				className="contact__heading title">Contact Me</h2>
+				className="contact__heading title"
+			>
+				Contact Me
+			</h2>
 			<div className="contact__wrapper wrapper--large">
 				<div className="contact__visual">
 					<img src={contactVisual} alt="Email" />
@@ -25,7 +27,7 @@ const Contact = () => {
 						type="text"
 						name="name"
 						placeholder="Your Name"
-						spellcheck="false"
+						spellCheck="false"
 						required
 					/>
 					<input

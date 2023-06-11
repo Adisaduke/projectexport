@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import {
 	Loader,
 	Navbar,
@@ -10,7 +10,6 @@ import {
 	Blogs,
 	Contact,
 	Footer,
-	Test,
 } from "../components";
 // import "../assets/styles/main.css";
 
@@ -58,7 +57,6 @@ const HomeContent = () => {
 				<Contact />
 			</main>
 			<Footer />
-			
 		</div>
 	);
 };
